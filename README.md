@@ -1,6 +1,6 @@
 # Hello website!
 
-This is a basic HTML starter project you can build on however you like. No need to save. While you develop your site, your changes will happen 🪄 immediately in the preview window. On the left you'll see the files that make up your site, including HTML, JavaScript, and CSS. You can upload assets like images or audio in `assets`. The rest is up to you and your imagination. 🦄
+This is a basic HTML starter project you can build on however you like. No need to save. While you develop your site, your changes will happen ✨ immediately in the preview window. On the left you'll see the files that make up your site, including HTML, JavaScript, and CSS. You can upload assets like images or audio in `assets`. The rest is up to you and your imagination. 🦄
 
 ## What's in this project?
 
@@ -14,7 +14,7 @@ This is a basic HTML starter project you can build on however you like. No need 
 
 Open each file and check out the comments (in gray) for more info.
 
-## Next steps
+## Next steps 🚀
 
 Make an edit to your website! In `index.html`, add this code on the line after the comment with "ADD BUTTON HERE" in it (you can copy and paste the button element HTML):
 
