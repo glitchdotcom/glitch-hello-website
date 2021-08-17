@@ -12,6 +12,10 @@ This is a basic HTML starter project you can build on however you like. No need 
 
 ← `script.js`: If you're feeling fancy you can add interactivity to your site with JavaScript. The code in the JavaScript file runs when the page loads, and when the visitor clicks the button you can add below.
 
+← `manifest.json`: The manifest allows the site to function as a PWA (Progressive Web App), specifying metadata that determines how the app will appear and behave natively when installed on the user device.
+
+← `sw.js`: The Service Worker JavaScript sets the app up to cache content for fast delivery as a PWA.
+
 Open each file and check out the comments (in gray) for more info.
 
 ## Try this next 🏗️
