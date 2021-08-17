@@ -1,7 +1,7 @@
 /*
- ServiceWorker to make site function as a PWA (Progressive Web App)
- 
- Heavily inspired by https://glitch.com/~pwa by https://glitch.com/@PaulKinlan
+* ServiceWorker to make site function as a PWA (Progressive Web App)
+* 
+* Based on https://glitch.com/~pwa by https://glitch.com/@PaulKinlan
 */
 
 self.addEventListener("install", e => {
