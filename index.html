@@ -10,7 +10,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="icon" href="https://glitch.com/favicon.ico" />
-
+    
     <!-- 
       This is an HTML comment
       You can write text in a comment and the content won't be visible in the page
@@ -43,6 +43,20 @@
 
     <!-- Import the webpage's javascript file -->
     <script src="/script.js" defer></script>
+    
+    <!-- PWA setup -->
+    <link rel="manifest" href="/manifest.json">
+    <script>
+    if(location.protocol == 'http:') location.protocol = 'https:';
+    if('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/sw.js')
+        .then(reg => console.log('Service Worker registered', reg))
+        .catch(err => console.error('Service Worker **not** registered', err));
+    }
+    else {
+      console.warn('Service Worker not supported in this browser');
+    }    
+  </script>
   </head>
   <body>
     <!--
